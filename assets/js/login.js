@@ -38,7 +38,7 @@ $(function () {
                 if (result.status!==0) return layer.msg('登录失败')
                 layer.msg('登录成功')
                 localStorage.setItem('token',result.token)
-                //location.href='/index.html'
+                location.href='/bigEvent/index.html'
             }
         })
     })
