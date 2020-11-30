@@ -1,0 +1,22 @@
+html,
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: #F2F3F5;
+}
+body{
+    margin: 15px;
+}
+.layui-card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#add-cate-form{
+    padding-top: 10px;
+    padding-right:20px;
+}
+#edit-cate-form{
+    padding-top: 10px;
+    padding-right:20px;
+}
